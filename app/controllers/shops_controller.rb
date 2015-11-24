@@ -11,7 +11,6 @@ class ShopsController < ApplicationController
       @total += item.price
     end
     @total = 2.5
-    binding.pry
   end
 
 end
