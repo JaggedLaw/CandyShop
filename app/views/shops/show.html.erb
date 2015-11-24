@@ -1,0 +1,8 @@
+<h1>Items In Shop</h1>
+
+<h3> Potential revenue: <%= @total %> </h3>
+
+<% @items.each do |item|  %>
+<%= item.name %>
+<%= item.price %>
+<% end %>
